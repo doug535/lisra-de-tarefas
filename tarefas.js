@@ -4,7 +4,7 @@ const tarefas = []
 
 function add(){
     if(input.value != "")
-    tarefas.push(input.value)
+    tarefas.push(input.value) 
     input.value = ""
     render()
 }
